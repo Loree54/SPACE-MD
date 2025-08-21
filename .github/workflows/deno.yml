@@ -5,7 +5,7 @@ on:
   push:
     branches: ["main"]
   schedule:
-    - cron: "0 */6 * * *"     # Restart every 6 hours
+    - cron: "0 */6 * * *"     # Restar every 6 hours
 
 permissions:
   contents: read
